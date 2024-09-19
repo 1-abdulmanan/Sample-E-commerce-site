@@ -1,0 +1,61 @@
+#navbar{
+    flex-direction: column;
+}
+#logo{
+    margin: 5px 45px;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.8rem;
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+}
+#home h1 {
+    color: black;
+    text-align: center;
+    font-size: xxx-large;
+}
+#home p {
+    color: black;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+#services {
+    margin: 5px 34px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+#services .box {
+    border: 2px solid brown;
+    height: 200px;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color: rgb(202, 202, 202);
+    display: inline-table;
+}
+#contact-box form {
+    width: 80%;
+}
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 15vh;
+}
+.footer-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.footer-section p {
+    font-size: 18px;
+}
